@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/gp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@mipmap/ic_account_box_black_24dp"
+            android:title="Account" />
+
+    </group>
+
+    <group android:id="@+id/gp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@mipmap/ic_work_black_24dp"
+            android:title="Activities For Donation" />
+
+    </group>
+
+    <group android:id="@+id/gp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_power_settings_new_black_24dp"
+            android:title="Log Out" />
+
+    </group>
+
+
+
+</menu>

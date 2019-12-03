@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back10"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.click_for_help.click_help_1.SignUp">
+
+    <TextView
+        android:text="Register "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView4"
+        android:textSize="36sp"
+        android:textColor="#000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@drawable/edit_outline"
+        android:padding="5dp"
+
+        android:layout_marginTop="25dp"
+        android:id="@+id/name_signup"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#000"
+        android:hint="Enter Name*" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:background="@drawable/edit_outline"
+        android:padding="5dp"
+        android:layout_below="@+id/name_signup"
+        android:textColorHint="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/email_signup"
+        android:hint="Enter Email*" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColorHint="#000"
+        android:background="@drawable/edit_outline"
+        android:padding="5dp"
+        android:ems="10"
+        android:layout_below="@+id/password_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/area_signup"
+        android:hint="Enter Area*" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="@drawable/edit_outline"
+        android:textColorHint="#000"
+        android:padding="5dp"
+        android:ems="10"
+        android:layout_below="@+id/area_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/city_signup"
+        android:hint="Enter city*" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:background="@drawable/edit_outline"
+        android:padding="5dp"
+        android:ems="10"
+        android:textColorHint="#000"
+        android:id="@+id/password_signup"
+        android:layout_below="@+id/email_signup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:hint="Enter Password*" />
+
+    <Button
+        android:text="Sign Up"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_outline"
+        android:layout_marginTop="19dp"
+        android:id="@+id/signup_signup"
+        android:layout_below="@+id/city_signup"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
